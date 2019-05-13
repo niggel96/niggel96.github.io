@@ -1,0 +1,44 @@
+
+/* /* navigation bar style */ */
+
+.navbar{
+	padding-bottom: 2em;
+}
+
+.navbar-brand{
+	
+	font-size: 1.1em; 	
+}
+
+.nav-link, .navbar-brand {
+	color: #ffffff;
+/* 	cursor: pointer; */
+}
+
+.test{
+	text-align: right;
+}
+
+.table-scrollable {
+  width: 100%;
+  overflow-y: auto;
+  margin: 0 0 1em;
+}
+
+.table-scrollable::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+}
+
+.table-scrollable::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid #fff;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+body{
+max-width: 1080px;
+margin: 0 auto !important;
+float: none !important;
+}
